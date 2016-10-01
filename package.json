@@ -8,5 +8,8 @@
   "bugs": {
     "url": "https://github.com/cssconf/2017-assets/issues"
   },
-  "homepage": "https://github.com/cssconf/2017-assets#readme"
+  "homepage": "https://github.com/cssconf/2017-assets#readme",
+  "dependencies": {
+    "normalize.css": "^4.1.1"
+  }
 }
