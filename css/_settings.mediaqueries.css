@@ -1,0 +1,19 @@
+/* USAGE */
+/*
+@media (--medium-ish) {
+  p {
+    background: red;
+  }
+}
+this resolves to:
+@media (min-width: 64em) {
+  p {
+    background:red;
+  }
+}
+*/
+
+@custom-media --small-ish (width >= 40rem); /* 640px */
+@custom-media --medium-ish (width >= 64rem); /* 1024px */
+@custom-media --large-ish (width >= 87.5rem); /* 1400px */
+@custom-media --huge-ish (width >= 110rem); /* 1600px */
