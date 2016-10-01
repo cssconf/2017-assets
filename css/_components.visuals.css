@@ -1,0 +1,45 @@
+/* don't touch this */
+
+.visuals {
+  overflow: hidden;
+  .container {
+    /*border: 1px dotted yellow;*/
+    position: relative;
+  }
+}
+
+.visuals__canvas {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  .svg {
+    position: absolute;
+  }
+}
+
+.visuals__overlay {
+  position: relative;
+  z-index: 2;
+}
+
+/* start defining your artboards here */
+
+.visuals__canvas--01 {
+  .svg-corner {
+    width: 180%;
+    left: -50%;
+    top: -100%;
+  }
+  .svg-tri-triangles-a {
+    max-width: 10%;
+    right: 4%;
+    bottom: 0;
+  }
+  .svg-circle {
+    max-width: 22%;
+    right: 0;
+    top: 0;
+  }
+}

@@ -1,0 +1,33 @@
+.top-bar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: var(--height-top-bar);
+  padding: 1rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--color-white);
+  z-index: 5;
+  @media (--large-ish) {
+    height: calc(1.25 * var(--height-top-bar));
+  }
+}
+
+.top-bar__title {
+  color: var(--color-grey-dark);
+  font-size: 1em;
+  line-height: 1;
+  margin-bottom: 0;
+  span {
+    color: var(--color-blue);
+  }
+  @media (--large-ish) {
+    font-size: 1.125rem; /* 18px */
+  }
+}
+
+.top-bar__cta {
+  flex-shrink: 0;
+}

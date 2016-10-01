@@ -1,0 +1,78 @@
+html { box-sizing: border-box; }
+
+*,
+*::before,
+*::after { box-sizing: inherit; }
+
+
+section, header, footer {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+section {
+  overflow: hidden;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  @media (--medium-ish) {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+  }
+  @media (--large-ish) {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+  }
+}
+
+.section--padding-huge {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  @media (--medium-ish) {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+  }
+  @media (--large-ish) {
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+  }
+}
+
+/* inner content */
+
+.container {
+  max-width: 1082px;
+  width: auto !important;
+  margin: 0 auto;
+}
+
+/* box styling */
+
+.box--twitter {
+  display: inline-block;
+  margin-bottom: 2rem;
+}
+
+.box--padded {
+  padding: 1.25rem 2rem 1.5rem;
+  > :last-child {
+    margin-bottom: 0;
+  }
+}
+
+.box--fill-height {
+  height: 100%;
+}
+
+.box--shadow {
+  box-shadow: 0 .5rem 2rem rgba(43,43,43,.3);
+  overflow: hidden;
+  margin-bottom: 1.375rem;
+}
+
+.box--nutshell {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+  padding: 1.75rem 2rem 2rem;
+}
