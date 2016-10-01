@@ -9,6 +9,7 @@
     "url": "https://github.com/cssconf/2017-assets/issues"
   },
   "homepage": "https://github.com/cssconf/2017-assets#readme",
+  "style": "css/cssconf.css",
   "dependencies": {
     "normalize.css": "^4.1.1"
   }
