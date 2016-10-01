@@ -10,6 +10,12 @@
   },
   "homepage": "https://github.com/cssconf/2017-assets#readme",
   "style": "css/cssconf.css",
+  "files": [
+    "css",
+    "svg",
+    "fonts",
+    "icons"
+  ],
   "dependencies": {
     "normalize.css": "^4.1.1"
   }
