@@ -9,6 +9,7 @@
 }
 
 .visuals__canvas {
+  /*border: 1px dotted red;*/
   position: absolute;
   top: 0;
   right: 0;
@@ -41,5 +42,62 @@
     max-width: 22%;
     right: 0;
     top: 0;
+  }
+}
+
+
+/* visual on 2017.cssconf.eu landing page */
+
+.visuals--02 {
+  &.header {
+    padding-top: 0;
+  }
+  .svg-cssconfeu-logo-2017 {
+    max-width: 30rem;
+    width: 100%;
+  }
+  svg {
+    width: 3rem;
+  }
+  .svg-start-blue-finger {
+    width: 7rem;
+    top: -1rem;
+    left: calc(50% - 3.5rem);
+  }
+  .svg-start-donut {
+    width: 10%;
+    bottom: 5%;
+    left: 10%;
+  }
+  .svg-start-tiny-triangle {
+    width: 3%;
+    bottom: 0;
+    left: calc(50% - 1rem);
+  }
+  .svg-start-blue-arc {
+    width: 14%;
+    bottom: 5%;
+    right: 9%;
+  }
+  .svg-start-circle {
+    width: 2.5%;
+    top: 17%;
+    right: 12%;
+  }
+  .svg-start-arc-2 {
+    width: 14%;
+    top: 7%;
+    right: 5%;
+  }
+  .svg-start-triangle-group {
+    width: 11%;
+    top: 14%;
+    left: 5%;
+  }
+  .svg-start-green-gradient {
+    display: none;
+  }
+  .svg-start-arc-1 {
+    display: none;
   }
 }
