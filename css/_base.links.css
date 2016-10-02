@@ -72,13 +72,19 @@ a {
 
 .link--arrow-white {
   color: var(--color-white);
-  &:hover, &:focus {
-    color: var(--color-off-white);
-  }
   &:before {
-    background-color: var(--color-blue-light);
+    background-color: var(--color-white);
   }
   &:after {
-    border-color: transparent transparent transparent var(--color-blue-light);
+    border-color: transparent transparent transparent var(--color-white);
+  }
+  &:hover, &:focus {
+    color: var(--color-mint);
+    &:before {
+      background-color: var(--color-mint);
+    }
+    &:after {
+      border-color: transparent transparent transparent var(--color-mint);
+    }
   }
 }
