@@ -27,21 +27,41 @@
 
 /* start defining your artboards here */
 
-.visuals__canvas--01 {
-  .svg-corner {
-    width: 180%;
-    left: -50%;
-    top: -100%;
+/* visual on top of sponsor page */
+.visuals--01 {
+  .svg-blue-bolt {
+    width: 90vw;
+    right: 45%;
+    bottom: -5%;
+    @media (--small-ish) {
+      right: 40%;
+      bottom: -7%;
+    }
+    @media (--medium-ish) {
+      width: 70vw;
+      bottom: -12%;
+    }
+    @media (--large-ish) {
+      width: 60vw;
+      bottom: -12%;
+    }
   }
   .svg-tri-triangles-a {
-    max-width: 10%;
+    width: 10%;
     right: 4%;
     bottom: 0;
+    @media (--medium-ish) {
+      width: 15%;
+      right: 16%;
+    }
   }
   .svg-circle {
-    max-width: 22%;
+    width: 20%;
     right: 0;
     top: 0;
+    @media (--medium-ish) {
+      width: 16%;
+    }
   }
 }
 
