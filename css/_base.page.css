@@ -67,7 +67,7 @@ section {
 }
 
 .box--shadow {
-  box-shadow: 0 .5rem 2rem rgba(43,43,43,.3);
+  box-shadow: 0 .5rem 2rem rgba(43,43,43,.175);
   overflow: hidden;
   margin-bottom: 1.375rem;
 }
