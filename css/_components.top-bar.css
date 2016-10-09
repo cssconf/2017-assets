@@ -9,8 +9,8 @@
   justify-content: space-between;
   align-items: center;
   background-color: var(--color-white);
-  z-index: 5;
-  @media (--large-ish) {
+  z-index: 100; /* to be above svg visuals, even if many svgs are present */
+ @media (--large-ish) {
     height: calc(1.25 * var(--height-top-bar));
   }
 }

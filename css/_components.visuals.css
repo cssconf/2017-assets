@@ -72,6 +72,10 @@
   &.header {
     padding-top: 0;
   }
+  /*.svg {
+    background: pink;
+    border: 3px solid green;
+  }*/
   .svg-cssconfeu-logo-2017 {
     max-width: 26rem;
     width: 100%;
