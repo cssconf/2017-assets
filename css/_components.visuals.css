@@ -151,6 +151,7 @@
     width: 16%;
     bottom: 15%;
     right: 2%;
+    transform: rotate(-10deg);
     @media (--medium-ish) {
       width: 15%;
       bottom: 14%;
@@ -183,6 +184,34 @@
     @media (--small-ish) {
       top: 12%;
       left: 5%;
+    }
+  }
+
+  /* animate donut to spin around */
+  .svg-start-donut {
+    z-index: 10;
+    transition: transform 1s ease-in-out;
+    &:hover {
+      transform: rotate(720deg);
+    }
+  }
+
+  /* animate blue arc to gently rotate – problem: transform origin */
+  .svg-start-blue-arc {
+    z-index: 10;
+    transition: transform 1s ease-in-out;
+    transition-timing-function: cubic-bezier(1,-0.4,0.29,1.39);
+    &:hover {
+      transform: rotate(10deg);
+    }
+  }
+
+  /* animate blue finger to move out a little bit when hovered */
+  .svg-start-blue-finger {
+    z-index: 10;
+    transition: transform .2s ease-in-out;
+    &:hover {
+       transform: translate(-5%, -7%);
     }
   }
 }
