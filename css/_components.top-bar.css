@@ -31,3 +31,12 @@
 .top-bar__cta {
   flex-shrink: 0;
 }
+
+.top-bar__nav {
+
+}
+
+.top-bar__nav-link {
+  padding: .5rem .25rem;
+  font-size: .5rem;
+}
