@@ -25,9 +25,9 @@
   @media (--small-ish) { flex: 0 1 26.5%; }
 }
 
-.c-team-photos-link { display: block; }
+.c-team-photos__link { display: block; }
 
-.c-team-photos-img {
+.c-team-photos__img {
   box-shadow: 0 .5rem 2rem rgba(43,43,43,.25);
   margin-bottom: 1rem;
   position: relative;
@@ -37,7 +37,7 @@
   @media (--medium-ish) { margin-bottom: 1.35rem; }
 }
 
-.c-team-photos-caption {
+.c-team-photos__caption {
   font-size: 1.25em;
   line-height: 1;
 
@@ -49,9 +49,9 @@
   @media (--medium-ish) { font-size: 1.5em; }
 }
 
-.c-team-photos-shapes { position: absolute; }
+.c-team-photos__shapes { position: absolute; }
 
-.c-team-photos-shapes--one-first {
+.c-team-photos__shapes--one-first {
   left: -2.3rem;
   top: -1.8rem;
   width: 5rem;
@@ -69,7 +69,7 @@
   }
 }
 
-.c-team-photos-shapes--one-last {
+.c-team-photos__shapes--one-last {
   bottom: 6rem;
   right: -1rem;
   width: 2.5rem;
@@ -83,7 +83,7 @@
   @media (--medium-ish) { bottom: 9rem; }
 }
 
-.c-team-photos-shapes--two-first {
+.c-team-photos__shapes--two-first {
   left: -2rem;
   top: 1.4rem;
   width: 4.5rem;
@@ -102,7 +102,7 @@
   }
 }
 
-.c-team-photos-shapes--two-last {
+.c-team-photos__shapes--two-last {
   right: -2.2rem;
   bottom: 7rem;
   width: 5rem;
@@ -120,7 +120,7 @@
   }
 }
 
-.c-team-photos-shapes--three-first {
+.c-team-photos__shapes--three-first {
   right: -1.2rem;
   top: -0.5rem;
   width: 4rem;
@@ -132,7 +132,7 @@
   }
 }
 
-.c-team-photos-shapes--three-last {
+.c-team-photos__shapes--three-last {
   bottom: 6.5rem;
   left: -1.2rem;
   width: 3.5rem;
