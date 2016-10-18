@@ -1,15 +1,3 @@
-/* Classes for team photos negative top margin BEGIN */
-.u-overflow-content {
-  @media (--small-ish) { overflow: visible; }
-}
-
-.u-mr-overflow-content {
-  @media (--small-ish) { margin-bottom: 8rem; }
-  @media (--medium-ish) { margin-bottom: 14rem; }
-}
-/* Classes for team photos negative top margin END */
-
-
 .c-team-photos {
   margin-bottom: 2rem;
   padding-left: 2rem;
@@ -52,7 +40,7 @@
 .c-team-photos-caption {
   font-size: 1.25em;
   line-height: 1;
-  
+
   @media (--small-ish) {
     margin: 0 auto;
     width: 60%;
@@ -129,7 +117,7 @@
     right: -3.4rem;
     bottom: 9rem;
     width: 7rem;
-  } 
+  }
 }
 
 .c-team-photos-shapes--three-first {
@@ -137,7 +125,7 @@
   top: -0.5rem;
   width: 4rem;
 
-  
+
 
   @media (--medium-ish) {
     right: -1.5rem;
