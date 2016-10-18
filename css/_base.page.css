@@ -79,3 +79,7 @@ section {
   height: 100%;
   padding: 1.75rem 2rem 2rem;
 }
+
+.box--sponsor-2015 .svg {
+  display: block;
+}
