@@ -7,6 +7,11 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+  }
+}
+
+.c-team-photos--overlapping {
+  @media (--small-ish) {
     margin-bottom: 4rem;
     margin-top: -9rem; /* Negative margin for overlapping with previous module */
   }
