@@ -32,11 +32,34 @@
   flex-shrink: 0;
 }
 
-.top-bar__nav {
+.top-bar__rocket {
+  display: inline-block;
+  animation: rocket .1s infinite;
+  animation-play-state: paused;
+}
 
+.top-bar__cta:hover .top-bar__rocket {
+  animation-play-state: running;
+}
+
+.top-bar__nav {
 }
 
 .top-bar__nav-link {
   padding: .5rem .25rem;
   font-size: .5rem;
+}
+
+@keyframes rocket {
+  0% {
+    transform: translateX(0) translateY(0);
+  }
+
+  50% {
+    transform: translateX(1px) translateY(1px);
+  }
+
+  100% {
+    transform: translateX(0) translateY(0);
+  }
 }
