@@ -88,3 +88,30 @@ a {
     }
   }
 }
+
+.link__icon {
+  display: inline-block;
+  animation-play-state: paused;
+}
+
+.link__icon--rocket {
+  animation: rocket .1s infinite;
+}
+
+.link--animated:hover .link__icon--rocket {
+  animation-play-state: running;
+}
+
+@keyframes rocket {
+  0% {
+    transform: translateX(0) translateY(0);
+  }
+
+  50% {
+    transform: translateX(1px) translateY(1px);
+  }
+
+  100% {
+    transform: translateX(0) translateY(0);
+  }
+}
