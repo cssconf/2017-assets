@@ -95,7 +95,9 @@ a {
 }
 
 .link__icon--rocket {
-  animation: rocket .1s infinite;
+  animation-name: rocket;
+  animation-duration: .1s;
+  animation-iteration-count: infinite;
 }
 
 .link--animated:hover .link__icon--rocket {
