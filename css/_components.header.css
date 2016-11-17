@@ -1,7 +1,10 @@
 .header {
-  margin-top: var(--height-top-bar);
+  margin-top: var(--height-top-bar-smallish);
   padding-top: 2rem;
   padding-bottom: 2rem;
+  @media (--small-ish) {
+    margin-top: var(--height-top-bar);
+  }
   @media (--medium-ish) {
     padding-top: 4rem;
     padding-bottom: 4rem;

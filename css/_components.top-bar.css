@@ -2,15 +2,20 @@
   position: fixed;
   top: 0;
   width: 100%;
-  height: var(--height-top-bar);
   padding: 1rem;
   display: flex;
-  flex-direction: row;
-  justify-content: space-between;
+  height: var(--height-top-bar-smallish);
+  flex-direction: column;
   align-items: center;
   background-color: var(--color-white);
   z-index: 100; /* to be above svg visuals, even if many svgs are present */
- @media (--large-ish) {
+  @media (--small-ish) {
+    align-items: center;
+    flex-direction: row;
+    height: var(--height-top-bar);
+    justify-content: space-between;
+  }
+  @media (--large-ish) {
     height: calc(1.25 * var(--height-top-bar));
   }
 }
@@ -29,13 +34,28 @@
 }
 
 .top-bar__cta {
+  display: none;
   flex-shrink: 0;
+  @media (--small-ish) {
+    display: block;
+  }
 }
 
 .top-bar__nav {
+  justify-content: center;
+  display: flex;
+  margin-top: 1rem;
+  @media (--small-ish) {
+    flex-direction: row;
+    margin-top: 0;
+  }
 }
 
 .top-bar__nav-link {
-  padding: .5rem .25rem;
-  font-size: .5rem;
+  padding: 0 .25rem;
+  margin: 0 .5rem;
+  @media (--small-ish) {
+    padding-bottom: .5rem;
+    padding-top: .5rem;
+  }
 }
