@@ -1,20 +1,15 @@
 .top-bar {
+  align-items: center;
+  background-color: var(--color-white);
+  display: flex;
+  flex-direction: row;
+  height: var(--height-top-bar);
+  justify-content: space-between;
+  padding: 1rem;
   position: fixed;
   top: 0;
   width: 100%;
-  padding: 1rem;
-  display: flex;
-  height: var(--height-top-bar-smallish);
-  flex-direction: column;
-  align-items: center;
-  background-color: var(--color-white);
   z-index: 100; /* to be above svg visuals, even if many svgs are present */
-  @media (--small-ish) {
-    align-items: center;
-    flex-direction: row;
-    height: var(--height-top-bar);
-    justify-content: space-between;
-  }
   @media (--large-ish) {
     height: calc(1.25 * var(--height-top-bar));
   }
@@ -22,11 +17,15 @@
 
 .top-bar__title {
   color: var(--color-grey-dark);
+  flex-grow: 1;
   font-size: 1em;
   line-height: 1;
   margin-bottom: 0;
   span {
     color: var(--color-blue);
+  }
+  @media (--small-ish) {
+    flex-grow: initial;
   }
   @media (--large-ish) {
     font-size: 1.125rem; /* 18px */
@@ -34,19 +33,17 @@
 }
 
 .top-bar__cta {
-  display: none;
   flex-shrink: 0;
-  @media (--small-ish) {
-    display: block;
-  }
 }
 
 .top-bar__nav {
-  justify-content: center;
-  display: flex;
-  margin-top: 1rem;
+  display: none;
+
   @media (--small-ish) {
+    display: flex;
     flex-direction: row;
+    justify-content: center;
+    margin-bottom: 0;
     margin-top: 0;
   }
 }

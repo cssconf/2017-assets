@@ -104,6 +104,14 @@ a {
   animation-play-state: running;
 }
 
+.link--top-bar .link__icon {
+  display: none;
+
+  @media (--small-ish) {
+    display: inline-block;
+  }
+}
+
 @keyframes rocket {
   0% {
     transform: translateX(0) translateY(0);
