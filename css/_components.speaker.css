@@ -1,0 +1,37 @@
+.speaker {
+  text-align: center;
+}
+
+.speaker__text, .speaker__image {
+  display: inline-block;
+  vertical-align: baseline;
+  text-align: left;
+}
+
+.speaker__name {
+  margin-bottom: 0;
+}
+
+.speaker__image {
+  position: relative;
+  left: -2.3rem;
+  width: 15rem;
+  height: 18.125rem;
+  box-shadow: 0 0 6rem rgba(43, 43, 43, 0.55);
+}
+
+.speaker__image img { position: absolute; z-index: 1; }
+
+.speaker__shapes { position: absolute; }
+.speaker__shapes--one-before {
+  left: -2.3rem;
+  top: -1.8rem;
+  width: 5rem;
+}
+
+.speaker__shapes--one-after {
+  bottom: 6rem;
+  right: -1rem;
+  width: 2.5rem;
+  z-index: 2;
+}
