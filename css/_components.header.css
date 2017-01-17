@@ -12,3 +12,8 @@
     padding-bottom: 5rem;
   }
 }
+
+.header--speaker {
+  background-image: url(/assets/zigzag-bg.svg);
+  background-size: cover;
+}
