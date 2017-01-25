@@ -39,8 +39,10 @@ section {
 
 /* for speaker list, which has no padding left/right on mobile */
 .section--block-list {
-  padding-left: 0;
-  padding-right: 0;
+  @media (--max-xsmall-ish) {
+    padding-left: 0;
+    padding-right: 0;
+  }
 }
 
 /* inner content */
