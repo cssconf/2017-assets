@@ -98,6 +98,7 @@ a {
   animation-name: rocket;
   animation-duration: .1s;
   animation-iteration-count: infinite;
+  padding-right: 5px; /* fix for cut-off emoji on non-retina displays */
 }
 
 .link--animated:hover .link__icon--rocket {
