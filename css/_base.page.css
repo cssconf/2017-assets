@@ -37,6 +37,14 @@ section {
   }
 }
 
+/* for speaker list, which has no padding left/right on mobile */
+.section--block-list {
+  @media (--max-xsmall-ish) {
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+
 /* inner content */
 
 .container {
@@ -57,6 +65,13 @@ section {
 
 .box--padded {
   padding: 1.25rem 2rem 1.5rem;
+  > :last-child {
+    margin-bottom: 0;
+  }
+}
+
+.box--slightly-padded {
+  padding: .5rem .75rem .75rem;
   > :last-child {
     margin-bottom: 0;
   }
