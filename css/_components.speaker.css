@@ -1,0 +1,73 @@
+.speaker {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.speaker__text, .speaker__image {
+  display: inline-block;
+  text-align: left;
+}
+
+.speaker__text {
+  z-index: 1;
+}
+
+.speaker__name {
+  margin-bottom: 0;
+}
+
+.speaker__image {
+  position: relative;
+  width: 15rem;
+  height: 18.125rem;
+  transform: translate(-1.8rem);
+}
+
+.speaker__image img {
+  box-shadow: 0 0 6rem rgba(43, 43, 43, 0.55);
+}
+
+.speaker__shapes { position: absolute; }
+.speaker__shapes--one-before {
+  left: -2.3rem;
+  top: -1.8rem;
+  width: 5rem;
+  z-index: -1;
+}
+
+.speaker__shapes--one-after {
+  bottom: 1.8rem;
+  right: -1.5rem;
+  width: 3rem;
+  z-index: 1;
+}
+
+.speaker__talk-info {
+  padding: 1.7143rem;
+  margin-bottom: 1.7143rem;
+}
+.speaker__link-list {
+  list-style-type: none;
+  padding: 0;
+}
+.speaker__link-list .speaker__link {
+  display: inline-block;
+
+  &:after { content: ' | '; }
+  &:last-child:after { display: none; }
+}
+
+/* the color inheritance is necessary to overwrite the links style with the utility classes we use for personalized speaker colors */
+.speaker-item {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  justify-content: flex-end;
+  text-align: left;
+  color: inherit;
+  &:hover, &:focus {
+    color: var(--color-white);
+    background-color: var(--color-blue-dark);
+  }
+}
