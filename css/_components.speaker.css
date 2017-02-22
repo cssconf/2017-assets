@@ -20,12 +20,15 @@
 .speaker__image {
   position: relative;
   width: 15rem;
-  height: 18.125rem;
   transform: translate(-1.8rem);
+  @media (--xsmall-ish) {
+    height: 18.125rem;
+  }
 }
 
 .speaker__image img {
   box-shadow: 0 0 6rem rgba(43, 43, 43, 0.55);
+  height: auto;
 }
 
 .speaker__shapes { position: absolute; }
