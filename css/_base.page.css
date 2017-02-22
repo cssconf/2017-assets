@@ -37,6 +37,11 @@ section {
   }
 }
 
+/* for speaker list, which has no padding top */
+.section--block-list-home {
+  padding-top: 0;
+}
+
 /* for speaker list, which has no padding left/right on mobile */
 .section--block-list {
   @media (--max-xsmall-ish) {
