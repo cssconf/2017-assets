@@ -68,6 +68,11 @@ section {
   margin-bottom: 2rem;
 }
 
+.box--add-on {
+  height: 100%;
+  margin-bottom: 0 !important;
+}
+
 .box--padded {
   padding: 1.25rem 2rem 1.5rem;
   > :last-child {
