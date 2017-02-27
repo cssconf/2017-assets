@@ -126,6 +126,15 @@ h6, .h6 {
   line-height: inherit; /* same as body */
 }
 
+.h1--company-name {
+  opacity: 1;
+  transition: opacity .5s ease-in-out;
+}
+
+.h1--company-name.is-transparent {
+  opacity: 0;
+}
+
 /* paragraphs */
 /* copy max as described in the type chart in issue #14 */
 
