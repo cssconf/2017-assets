@@ -34,12 +34,75 @@
 
 .package__tagline {
   float: left;
+  font-size: 1.5rem;
   margin-right: 1em;
   margin-bottom: .5rem;
 }
 
 .package__price {
+  font-size: 1.5rem;
   margin-bottom: .5rem;
+}
+
+.package__price--overview {
+  font-size: 1.125rem;
+  margin-bottom: 0;
+}
+
+.package__overview {
+  background-color: var(--color-mint);
+  color: var(--color-white);
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: column;
+  height: 10rem;
+  padding: 0 1.5rem 1rem;
+  position: relative;
+}
+
+.package__overview--festival-lounge {
+  background-color: var(--color-salmon);
+}
+
+.package__overview--main-party-sponsor {
+  background-color: var(--color-blue);
+}
+
+.package__overview--coffee-bar {
+  background-color: var(--color-yolk);
+}
+
+.package__overview--video-package {
+  background-color: var(--color-green);
+}
+
+.package__overview--tote-bags {
+  background-color: var(--color-red);
+}
+
+.package__overview--small-sponsor-booth {
+  background-color: var(--color-mint);
+}
+
+.package__overview--drinks-sponsor {
+  background-color: var(--color-rose);
+}
+
+.package__overview--diversity-ticket {
+  background-color: var(--color-plum);
+}
+
+.package__ribbon {
+  position: absolute;
+  top: .75rem;
+  right: 1rem;
+  font-size: .825rem;
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, .6);
+}
+
+.package__details {
+  padding: 1.25rem 2rem 0;
 }
 
 .package__features {
@@ -96,6 +159,11 @@
   }
 }
 
+.package--add-on {
+  height: 100%;
+  margin-bottom: 0;
+}
+
 .package--soldout {
   .package__header {
     position: relative;
@@ -106,7 +174,7 @@
   }
   .package__header,
   .package__body,
-  &.package--extra {
+  &.package--add-on {
     .box {
       opacity: .65;
     }
