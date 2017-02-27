@@ -1,7 +1,7 @@
 {
   "private": true,
   "name": "2017-assets",
-  "version": "1.9.0",
+  "version": "1.10.0",
   "description": "This module contains all assets for the 2017 CSSconf EU websites.",
   "main": "README.md",
   "author": "CSSconf EU",
