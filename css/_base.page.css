@@ -115,6 +115,9 @@ section {
   @media (--xsmall-ish) {
     margin-bottom: 9rem;
   }
+  @media (--small-ish) {
+    margin-bottom: 0;
+  }
   @media screen and (min-width: 70.75rem) {
     margin-left: -1.5rem;
     margin-right: -1.5rem;
