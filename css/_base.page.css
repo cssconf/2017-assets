@@ -108,3 +108,19 @@ section {
 .box--sponsor .svg {
   display: block;
 }
+
+.box--venue {
+  margin-bottom: 8rem;
+  overflow: visible;
+  @media (--xsmall-ish) {
+    margin-bottom: 9rem;
+  }
+  @media screen and (min-width: 70.75rem) {
+    margin-left: -1.5rem;
+    margin-right: -1.5rem;
+  }
+  @media screen and (min-width: 73.75rem) {
+    margin-left: -3rem;
+    margin-right: -3rem;
+  }
+}
