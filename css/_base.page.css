@@ -4,6 +4,9 @@ html { box-sizing: border-box; }
 *::before,
 *::after { box-sizing: inherit; }
 
+body {
+  background-color: white;
+}
 
 section, header, footer {
   padding-left: 15px;
