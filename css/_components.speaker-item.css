@@ -24,3 +24,7 @@
     margin-top: 2rem;
   }
 }
+
+.speaker-item__location {
+  margin-left: .1rem;
+}
