@@ -17,6 +17,10 @@
   margin-bottom: 0;
 }
 
+.speaker__location {
+  margin-left: .4rem;
+}
+
 .speaker__image {
   position: relative;
   width: 15rem;
