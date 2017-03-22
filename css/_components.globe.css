@@ -51,7 +51,7 @@
 @keyframes GYRATE {
   0% {
     z-index: 3;
-    transform: translateX(0), scale(1);
+    transform: translateX(0) scale(1);
   }
 
   50% { transform: translateX(13rem) scale(1); }
