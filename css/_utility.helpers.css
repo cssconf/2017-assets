@@ -29,3 +29,10 @@
     linear-gradient(90deg, rgba(100,0,255,.2) 70px, transparent 71px);
   background-size: 92px 24px;
 }
+
+.local-anchor {
+  display: block;
+  position: relative;
+  top: -3.75rem;
+  visibility: hidden;
+}
