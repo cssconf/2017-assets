@@ -3,6 +3,8 @@
   border-top: 2px solid var(--color-blue-dark);
   display: flex;
   flex-direction: column;
+  padding-left: 1rem;
+  padding-right: 1rem;
 }
 
 .c-schedule-item__time {
