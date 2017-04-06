@@ -24,7 +24,7 @@
   span {
     color: var(--color-blue);
   }
-  @media (--small-ish) {
+  @media (min-width: 50em) {
     flex-grow: initial;
   }
   @media (--large-ish) {
@@ -39,7 +39,7 @@
 .top-bar__nav {
   display: none;
 
-  @media (--small-ish) {
+  @media (min-width: 50em) {
     display: flex;
     flex-direction: row;
     justify-content: center;

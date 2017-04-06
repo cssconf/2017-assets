@@ -1,6 +1,6 @@
 .mobile-menu {
 
-  @media (--small-ish) {
+  @media (min-width: 50em) {
     display: none;
   }
 }
