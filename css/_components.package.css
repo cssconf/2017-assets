@@ -165,22 +165,13 @@
 }
 
 .package--soldout {
+  opacity: .55;
   .package__header {
     position: relative;
     z-index: 1;
   }
   .package__body {
     margin-bottom: 0;
-  }
-  .package__header,
-  .package__body,
-  &.package--add-on {
-    .box {
-      opacity: .65;
-    }
-    .package__alert {
-      margin-bottom: 0;
-    }
   }
 }
 
