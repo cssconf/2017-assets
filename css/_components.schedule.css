@@ -24,3 +24,11 @@
   margin: 0;
   padding: 3rem 0;
 }
+
+.c-schedule--compact::after {
+  display: none;
+}
+
+.c-schedule--compact .c-schedule__item {
+  padding-bottom: 0;
+}
